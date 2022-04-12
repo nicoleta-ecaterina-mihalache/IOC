@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SecondApp</class>
+ <widget class="QMainWindow" name="SecondApp">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>656</width>
+    <height>574</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Times New Roman</family>
+    <pointsize>14</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Proiect</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QListView" name="listView">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>611</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <property name="sizeAdjustPolicy">
+     <enum>QAbstractScrollArea::AdjustToContents</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Cumpara">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>390</y>
+      <width>241</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cumpără</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionBackW"/>
+   <addaction name="actionHelpN"/>
+   <addaction name="actionExitW"/>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>656</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_File">
+    <property name="title">
+     <string>&amp;File</string>
+    </property>
+    <addaction name="actionHelp"/>
+    <addaction name="actionExit"/>
+    <addaction name="actionBack"/>
+   </widget>
+   <addaction name="menu_File"/>
+  </widget>
+  <action name="actionHelp">
+   <property name="text">
+    <string>Help</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionBack">
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </action>
+  <action name="actionBackW">
+   <property name="icon">
+    <iconset>
+     <normaloff>icons/arrow-180.png</normaloff>icons/arrow-180.png</iconset>
+   </property>
+   <property name="text">
+    <string>BackW</string>
+   </property>
+  </action>
+  <action name="actionHelpN">
+   <property name="icon">
+    <iconset>
+     <normaloff>icons/question.png</normaloff>icons/question.png</iconset>
+   </property>
+   <property name="text">
+    <string>HelpN</string>
+   </property>
+  </action>
+  <action name="actionExitW">
+   <property name="icon">
+    <iconset>
+     <normaloff>icons/cross-button.png</normaloff>icons/cross-button.png</iconset>
+   </property>
+   <property name="text">
+    <string>ExitW</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
